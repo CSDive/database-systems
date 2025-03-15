@@ -1,10 +1,10 @@
-### **Assignment 1: Database Schema and DDL Operations**
+# **Assignment 1: Database Schema and DDL Operations**
 
-#### **Objective**
+## **Objective**
 
 In this assignment, you will implement **SQL Data Definition Language (DDL) operations** for a **pre-designed database schema** in **SQL Server**. The goal is to create and modify database tables while ensuring proper constraints and relationships.
 
-#### **Instructions**
+## **Instructions**
 
 1. **Create the Database and Tables**
    - Define a database named `Insurance`.
@@ -18,7 +18,7 @@ In this assignment, you will implement **SQL Data Definition Language (DDL) oper
    - Modify an existing table by adding a new column (`phone_number` in the `person` table).
    - Ensure the new column is **unique** and cannot be NULL.
 
-#### **Submission Guidelines**
+## **Submission Guidelines**
 
 - Your **SQL script** must begin with a comment containing your **name and student ID** as follows:
 
