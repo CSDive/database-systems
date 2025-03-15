@@ -9,12 +9,12 @@ In this assignment, you will implement **SQL Data Definition Language (DDL) oper
 1. **Create the Database and Tables**
    - Define a database named `Insurance`.
    - Create the following tables with appropriate data types and constraints:
-     - person (`<u>`driver_id`</u>`, name, address)
-     - car (`<u>`license_plate`</u>`, model, year)
-     - accident (`<u>`report_number`</u>`, year, location)
-     - owns (`<u>`driver_id`</u>`, `<u>`license_plate`</u>`)
-     - participated (`<u>`report_number`</u>`, `<u>`license_plate`</u>`, driver_id, damage_amount)
-2. **Alter a Table**
+     - person (`<ins>`driver_id`</ins>`, name, address)
+     - car (`<ins>`license_plate`</ins>`, model, year)
+     - accident (`<ins>`report_number`</ins>`, year, location)
+     - owns (`<ins>`driver_id`</ins>`, `<ins>`license_plate`</ins>`)
+     - participated (`<ins>`report_number`</ins>`, `<ins>`license_plate`</ins>`, driver_id, damage_amount)
+1. **Alter a Table**
    - Modify an existing table by adding a new column (`phone_number` in the `person` table).
    - Ensure the new column is **unique** and cannot be NULL.
 
